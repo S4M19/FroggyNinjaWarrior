@@ -5,6 +5,10 @@ using UnityEngine;
 public class pauseManager: MonoBehaviour
 {
     public static bool pause = false;
+    private void Start()
+    {
+        modePlay();
+    }
     public void modePause()
     {
         pause = true;

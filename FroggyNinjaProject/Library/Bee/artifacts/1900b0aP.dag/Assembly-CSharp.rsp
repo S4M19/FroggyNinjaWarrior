@@ -327,15 +327,18 @@
 "Assets/Scripts/DetectGround.cs"
 "Assets/Scripts/Fruit.cs"
 "Assets/Scripts/lifeManager.cs"
+"Assets/Scripts/Meta.cs"
 "Assets/Scripts/PanelManager.cs"
 "Assets/Scripts/PanelSelect.cs"
 "Assets/Scripts/pauseManager.cs"
+"Assets/Scripts/Plataforma.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerMove.cs"
 "Assets/Scripts/Player_NoAni.cs"
 "Assets/Scripts/QuitManager.cs"
 "Assets/Scripts/Score.cs"
+"Assets/Scripts/Weak.cs"
 "Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 -langversion:9.0
 
