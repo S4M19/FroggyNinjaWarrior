@@ -395,10 +395,12 @@
 "Assets/Scripts/PlayerMove.cs"
 "Assets/Scripts/Player_NoAni.cs"
 "Assets/Scripts/QuitManager.cs"
+"Assets/Scripts/Reanimar.cs"
 "Assets/Scripts/Score.cs"
 "Assets/Scripts/Weak.cs"
 "Assets/Scripts/Weak2.cs"
 "Assets/Scripts/Weak3.cs"
+"Assets/Scripts/Weak4.cs"
 -langversion:9.0
 
 /deterministic

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1485808608640047185}
   - component: {fileID: 8166260691734486772}
   - component: {fileID: 5975787907144771060}
-  - component: {fileID: 6664437977890606999}
+  - component: {fileID: 5992537672115665098}
   m_Layer: 6
   m_Name: Bee
   m_TagString: Suelo
@@ -251,7 +251,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6664437977890606999
+--- !u!114 &5992537672115665098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3095843879920291118}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a8a67ed5437d45f0b7e5cd7c9cb7a51, type: 3}
+  m_Script: {fileID: 11500000, guid: b705627c2a68c4d0e97294cd592ae033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   salto: 3
