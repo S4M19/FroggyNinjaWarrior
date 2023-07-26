@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8851186483719019689}
   - component: {fileID: 6061939319519320630}
   - component: {fileID: -486163180826402479}
-  - component: {fileID: -6561651803491326023}
+  - component: {fileID: 15605656485334701}
   m_Layer: 6
   m_Name: Radish
   m_TagString: Suelo
@@ -142,7 +142,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0016100407, y: 0.113346875}
+  m_Offset: {x: 0.0004386902, y: 0.11607987}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +153,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.21949339, y: 0.11396158}
+  m_Size: {x: 0.23745298, y: 0.10849559}
   m_EdgeRadius: 0
 --- !u!82 &-486163180826402479
 AudioSource:
@@ -165,7 +165,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e966fb42ed164a108adbedaaf6aff29, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ba4e06fca98764cd6a56d76b5a35dccd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -251,7 +251,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-6561651803491326023
+--- !u!114 &15605656485334701
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,9 +260,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3475413628251427788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd1389786f7f48739d3076c68b23622, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a8a67ed5437d45f0b7e5cd7c9cb7a51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  salto: 3
 --- !u!1 &6081658376797941590
 GameObject:
   m_ObjectHideFlags: 0

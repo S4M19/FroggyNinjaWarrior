@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7613671191671299579}
   - component: {fileID: 8480936815185282388}
   - component: {fileID: 4953134999225043276}
-  - component: {fileID: 8569062134087773891}
   - component: {fileID: 4308567978720260517}
+  - component: {fileID: -2132500499298587108}
   m_Layer: 6
   m_Name: Bunny
   m_TagString: Suelo
@@ -155,18 +155,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.2995448, y: 0.0690065}
   m_EdgeRadius: 0
---- !u!114 &8569062134087773891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2156617665270050014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd1389786f7f48739d3076c68b23622, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &4308567978720260517
 AudioSource:
   m_ObjectHideFlags: 0
@@ -177,7 +165,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e966fb42ed164a108adbedaaf6aff29, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0c37f592752b64e358a8f307145fabc7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -263,6 +251,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-2132500499298587108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2156617665270050014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056ebc7d9b62349279090270f3a464c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salto: 3
 --- !u!1 &4126381231880634680
 GameObject:
   m_ObjectHideFlags: 0

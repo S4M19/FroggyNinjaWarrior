@@ -102,8 +102,8 @@ GameObject:
   - component: {fileID: 441285350168995140}
   - component: {fileID: 9051819456629325884}
   - component: {fileID: 7120416122670670691}
-  - component: {fileID: 8970662733809217288}
   - component: {fileID: 7550572604173780044}
+  - component: {fileID: -5754124587394641267}
   m_Layer: 6
   m_Name: Duck
   m_TagString: Suelo
@@ -232,7 +232,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.031022608, y: 0.08950256}
+  m_Offset: {x: -0.031746745, y: 0.095295146}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -243,20 +243,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18168843, y: 0.08168402}
+  m_Size: {x: 0.22368455, y: 0.0932692}
   m_EdgeRadius: 0
---- !u!114 &8970662733809217288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839173021530741171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd1389786f7f48739d3076c68b23622, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &7550572604173780044
 AudioSource:
   m_ObjectHideFlags: 0
@@ -267,7 +255,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e966fb42ed164a108adbedaaf6aff29, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ba4e06fca98764cd6a56d76b5a35dccd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -353,3 +341,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-5754124587394641267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839173021530741171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8a67ed5437d45f0b7e5cd7c9cb7a51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salto: 3

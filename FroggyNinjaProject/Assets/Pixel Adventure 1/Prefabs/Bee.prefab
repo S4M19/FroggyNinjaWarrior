@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8244194296565629637}
   - component: {fileID: 1485808608640047185}
   - component: {fileID: 8166260691734486772}
-  - component: {fileID: 3759018034539971431}
   - component: {fileID: 5975787907144771060}
+  - component: {fileID: 6664437977890606999}
   m_Layer: 6
   m_Name: Bee
   m_TagString: Suelo
@@ -139,7 +139,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.106613785}
@@ -155,18 +155,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.36, y: 0.11767751}
   m_EdgeRadius: 0
---- !u!114 &3759018034539971431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3095843879920291118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd1389786f7f48739d3076c68b23622, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &5975787907144771060
 AudioSource:
   m_ObjectHideFlags: 0
@@ -177,8 +165,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: ba4e06fca98764cd6a56d76b5a35dccd, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -263,6 +251,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6664437977890606999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3095843879920291118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8a67ed5437d45f0b7e5cd7c9cb7a51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salto: 3
 --- !u!1 &8186227921323440241
 GameObject:
   m_ObjectHideFlags: 0

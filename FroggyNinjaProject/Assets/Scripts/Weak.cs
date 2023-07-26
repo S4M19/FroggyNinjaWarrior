@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class Weak : MonoBehaviour
 {
-    AudioSource sonido;
-    void Start()
-    {
-        sonido = GetComponent<AudioSource>();
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            sonido.Play();
+            collision.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x, 20);
             Destroy(gameObject);
         }
     }

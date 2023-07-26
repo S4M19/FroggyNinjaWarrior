@@ -13,7 +13,8 @@ ScriptsOnlyBuild:
     - PanelSelect
     - PlayerMove
     - QuitManager
-    - Weak
+    - Weak2
+    - Weak3
     - lifeManager
     - pauseManager
     Unity.2D.Animation.Editor.dll:
@@ -58,10 +59,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -314,13 +313,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10562}
-    - Class: 114
       Script: {instanceID: 10566}
     - Class: 114
       Script: {instanceID: 10570}
     - Class: 114
       Script: {instanceID: 10574}
+    - Class: 114
+      Script: {instanceID: 36222}
+    - Class: 114
+      Script: {instanceID: 36236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -419,11 +420,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10562}
-    - Class: 114
       Script: {instanceID: 10566}
     - Class: 114
       Script: {instanceID: 10574}
+    - Class: 114
+      Script: {instanceID: 36222}
+    - Class: 114
+      Script: {instanceID: 36236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -522,11 +525,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10554}
     - Class: 114
-      Script: {instanceID: 10562}
-    - Class: 114
       Script: {instanceID: 10566}
     - Class: 114
       Script: {instanceID: 10574}
+    - Class: 114
+      Script: {instanceID: 36222}
+    - Class: 114
+      Script: {instanceID: 36236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2023,10 +2028,22 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3ebc14f5272b4e681ff27441f304fbfb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Weak2
+  - hash:
+      serializedVersion: 2
+      Hash: 3ebc14f5272b4e681ff27441f304fbfb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Weak3
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Level_1.unity
   - Assets/Scenes/Level_2.unity
   - Assets/Scenes/Level_3.unity
-  playerPath: C:/Users/Ferxio/Documents/GitHub/Sapito_2/FroggyNinjaWarrior/FroggyNinjaWarrior.exe
+  playerPath: /Users/sammyariza/Documents/GitHub/FroggyNinjaWarrior/FroggyNinjaWarrior/FroggyNinjaWarrior.exe

@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 4225967998004221421}
   - component: {fileID: 5430311319599966581}
   - component: {fileID: 5845805879668721048}
-  - component: {fileID: 5187005230317931258}
+  - component: {fileID: 7863156153501714118}
   m_Layer: 6
   m_Name: Bat
   m_TagString: Suelo
@@ -232,7 +232,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0411402, y: 0.10886569}
+  m_Offset: {x: 0.004545212, y: 0.11618468}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -243,7 +243,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2823031, y: 0.059692115}
+  m_Size: {x: 0.32475328, y: 0.056764543}
   m_EdgeRadius: 0
 --- !u!82 &5845805879668721048
 AudioSource:
@@ -255,7 +255,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e966fb42ed164a108adbedaaf6aff29, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ba4e06fca98764cd6a56d76b5a35dccd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -341,7 +341,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5187005230317931258
+--- !u!114 &7863156153501714118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -350,6 +350,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8973752014464602220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd1389786f7f48739d3076c68b23622, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a8a67ed5437d45f0b7e5cd7c9cb7a51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  salto: 3

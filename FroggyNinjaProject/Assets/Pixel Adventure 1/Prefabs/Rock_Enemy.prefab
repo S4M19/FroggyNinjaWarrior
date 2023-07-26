@@ -102,8 +102,8 @@ GameObject:
   - component: {fileID: 2323819820615793047}
   - component: {fileID: 8635743849420766462}
   - component: {fileID: 2311205654892738992}
-  - component: {fileID: 6372961701948770846}
   - component: {fileID: 5261109287413712341}
+  - component: {fileID: 5213106842532840085}
   m_Layer: 0
   m_Name: Rock_Enemy
   m_TagString: Suelo
@@ -245,18 +245,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16280204, y: 0.039543487}
   m_EdgeRadius: 0
---- !u!114 &6372961701948770846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8415114793733656614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd1389786f7f48739d3076c68b23622, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &5261109287413712341
 AudioSource:
   m_ObjectHideFlags: 0
@@ -267,7 +255,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e966fb42ed164a108adbedaaf6aff29, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ba4e06fca98764cd6a56d76b5a35dccd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -353,3 +341,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5213106842532840085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8415114793733656614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8a67ed5437d45f0b7e5cd7c9cb7a51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salto: 3

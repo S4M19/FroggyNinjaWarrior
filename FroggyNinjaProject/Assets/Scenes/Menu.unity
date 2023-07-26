@@ -2405,6 +2405,8 @@ MonoBehaviour:
 
     Gabriel Prieto
 
+    Fernando Dimate
+
     2023'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db9c274cc67a83b4aa00fc59b8d12b62, type: 2}
@@ -2432,8 +2434,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
-  m_fontSizeBase: 26
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

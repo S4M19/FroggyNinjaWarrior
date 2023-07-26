@@ -281,8 +281,8 @@ GameObject:
   - component: {fileID: 491114843074332479}
   - component: {fileID: 1514730625333658465}
   - component: {fileID: 28239700734982825}
-  - component: {fileID: 9733644330510361}
   - component: {fileID: 2776794680166492115}
+  - component: {fileID: 4121156486178067780}
   m_Layer: 6
   m_Name: Yeyo_Pixelart
   m_TagString: Suelo
@@ -405,18 +405,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.117743, y: 1.775306}
   m_EdgeRadius: 0
---- !u!114 &9733644330510361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6117493456308458664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd1389786f7f48739d3076c68b23622, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &2776794680166492115
 AudioSource:
   m_ObjectHideFlags: 0
@@ -427,7 +415,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e966fb42ed164a108adbedaaf6aff29, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0c37f592752b64e358a8f307145fabc7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -513,3 +501,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4121156486178067780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6117493456308458664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056ebc7d9b62349279090270f3a464c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salto: 3
