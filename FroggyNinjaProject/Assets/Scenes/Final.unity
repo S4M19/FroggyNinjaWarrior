@@ -356,7 +356,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -102, y: -143}
+  m_AnchoredPosition: {x: 0, y: -160}
   m_SizeDelta: {x: 467.7092, y: 174.4717}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &47537639
@@ -756,8 +756,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -137, y: 8}
-  m_SizeDelta: {x: 441.5468, y: 155.5649}
+  m_AnchoredPosition: {x: -110, y: 2}
+  m_SizeDelta: {x: 441.5468, y: 215.494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585892174
 MonoBehaviour:
@@ -781,8 +781,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Thanks for helping Froggy to save his village!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ce58b2b3a6ab4bfc8c13b7807d3e2c2, type: 2}
-  m_sharedMaterial: {fileID: -3580662446806789351, guid: 5ce58b2b3a6ab4bfc8c13b7807d3e2c2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 493e77fdbb659ea49a6eec63c4e613a3, type: 2}
+  m_sharedMaterial: {fileID: 2015248378221424290, guid: 493e77fdbb659ea49a6eec63c4e613a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -1.2625802}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -892,8 +892,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: -50}
-  m_SizeDelta: {x: 471.1324, y: 779.0936}
+  m_AnchoredPosition: {x: 249, y: -14}
+  m_SizeDelta: {x: 779.7709, y: 981.3051}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1843248162
 MonoBehaviour:
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6c1688f042d164f1985ebe12a037dec6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7929046dc34bfa7439121c9201962429, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
