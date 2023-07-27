@@ -50,7 +50,7 @@ public class lifeManager : MonoBehaviour
             gameObject.transform.GetChild(4).gameObject.SetActive(true);
             gameObject.transform.GetChild(5).gameObject.SetActive(true);
             endSignal = true;
-            //SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
         }
     }
 }
